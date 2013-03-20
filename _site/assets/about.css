@@ -1,0 +1,42 @@
+div#details {
+	margin-top: 50px;
+}
+
+div.accordian-head{
+	margin: 10px 0px 0px 0px;
+	cursor: pointer;
+}
+div.accordian-head hr {
+	margin: 0px;
+	display: block;
+	clear: left;
+	visibility: hidden;
+}
+
+div.accordian-head img{
+	margin: 10px;
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	float: left;
+}
+
+div.accordian-head p{
+	margin:  0px;
+	float: left;
+
+	font-weight: normal;
+	text-transform: uppercase;
+	font-size: 300%;
+}
+
+
+
+.accordian-body{
+	display: none;
+	margin: 10px 0px;
+}
+
+.accordian-body p{
+	margin: 0px;
+}

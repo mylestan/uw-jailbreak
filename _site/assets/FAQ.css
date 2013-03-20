@@ -1,0 +1,24 @@
+.q-title-box{
+	margin:  0px;
+}
+
+.q-title-icon{
+	float: left;
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+}
+
+.q-title {
+	font-size: 150%;
+	color: #333;
+	font-weight: bold;
+	margin: 0px;
+}
+
+.q-answer {
+	font-size: 110%;
+	background-color: #FFF;
+	margin: 10px 20px;
+}
+
