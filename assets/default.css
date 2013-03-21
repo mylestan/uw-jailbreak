@@ -1,5 +1,8 @@
 /*****	CSS FOR DEFAULT	*****/
 
+{% comment %} We need JB/setup here for some url generation {% endcomment %}
+{% include JB/setup %}
+
 body{
 	text-align: center;
 	margin: 0px;
@@ -9,6 +12,7 @@ body{
 	font-family: courier;
 
 	background-color: #F63;
+	/*background: url('roughcloth-background-intense.png') repeat top left;*/
 }
 
 
@@ -43,6 +47,8 @@ body{
 	text-align: center;
 	text-transform: uppercase;
 	margin: 0 auto;
+
+	background: url('map-bg.png') repeat top left;
 }
 
 #header a:link{
@@ -81,19 +87,24 @@ body{
 #nav-bar{
 	text-align: justify;
 	margin-top: 10px;
+	margin-bottom: 25px;
 }
 
 #nav-bar li{
 	text-transform: uppercase;
-	font-size: 200%;
+	font-size: 300%;
 	font-weight: normal;
 
 	display: inline;
 }
 
 #nav-bar li a {
-	color:#000;
+	color: #000;
 	text-decoration: none;
+}
+
+#nav-bar li:hover a{
+	color: #999;
 }
 
 #nav-bar li.active a{
