@@ -1,0 +1,14 @@
+div.post-title{
+	font-size: 200%;
+	text-transform: uppercase;
+}
+
+div.post-date{
+	font-size: 80%;
+	font-style: italic;
+	color: #666;
+}
+
+div.post-content{
+	
+}

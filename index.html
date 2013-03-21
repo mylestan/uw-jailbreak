@@ -4,3 +4,14 @@ layout: default
 group:
 ---
 {% include JB/setup %}
+
+<link rel="stylesheet" type="text/css" href="{{ ASSET_PATH }}/index.css">
+
+{% comment %} list of posts go here {% endcomment %}
+<div class="posts">
+	{% for post in site.posts %}
+		<div class="post-title">{{ post.title }}</div>
+		<div class="post-date">{{ post.date | date_to_string }}</div>
+		<div class="post-content">{{ post.content }}</div>
+	{% endfor %}
+</div>
