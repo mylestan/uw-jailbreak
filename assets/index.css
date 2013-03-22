@@ -1,9 +1,11 @@
-div.post-title{
-	font-size: 200%;
+p.post-title{
+	margin: 0px;
+	font-size: 300%;
 	text-transform: uppercase;
 }
 
-div.post-date{
+p.post-date{
+	margin: 10px 20px;
 	font-size: 80%;
 	font-style: italic;
 	color: #666;
