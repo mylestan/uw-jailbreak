@@ -30,8 +30,22 @@
             {% assign group = 'navigation' %}
             {% include JB/pages_list %}
 		</div>
+		<div id="content-box">
+			{{ content }}
+		</div>
+		<div id="right-box">
+			<div id="register-box">
+				<h3>Keep Up!</h3>
+				<p>Throw your email onto the mailing list, and we'll keep you on-track with dates, etc.</p>
+				<form>
+					<input type="radio" name="email-content" value="deadlines"> Deadlines Only<br>
+					<input type="radio" name="email-content" value="deadlines-blog-posts"> Deadlines and Blog Posts<br>
+					<input type="text" name="Give it to me!"> (e-mail)<br>
+					<input type="submit" name="Go!">
+				</form>
+			</div>
+		</div>
 
-		{{ content }}
 	</div>
 
 	<div id="footer">

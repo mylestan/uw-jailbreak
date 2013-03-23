@@ -3,6 +3,12 @@
 {% comment %} We need JB/setup here for some url generation {% endcomment %}
 {% include JB/setup %}
 
+h3{
+	font-size: 200%;
+	text-transform: uppercase;
+	margin: 10px;
+}
+
 body{
 	text-align: center;
 	margin: 0px;
@@ -104,6 +110,32 @@ body{
 #nav-bar li.active a{
 	color:#999;
 	text-decoration: none;
+}
+
+
+
+#content-box{
+	width: 700px;
+	float: left;
+}
+
+
+
+#right-box{
+	width: 300px;
+	float: left;
+}
+
+#register-box{
+	background-color: #999;
+}
+
+#register-box p{
+	margin: 10px
+}
+
+#register-box form{
+	margin: 0px 10px;
 }
 
 
