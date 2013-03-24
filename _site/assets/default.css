@@ -115,7 +115,8 @@ body{
 
 
 #content-box{
-	width: 700px;
+	width: 680px;
+	margin-right: 20px;
 	float: left;
 }
 
