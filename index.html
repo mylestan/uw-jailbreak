@@ -15,7 +15,7 @@ group: navigation
 			<p class="post-title">{{ post.title }}</p>
 		</div>
 		<div>
-			<p class="post-date">{{ post.date | date_to_string }}</p>
+			<p class="post-date">{{ post.date | date_to_string }} by {{ post.author }}</p>
 		</div>
 		<div class="post-content">{{ post.content }}</div>
 	{% endfor %}
