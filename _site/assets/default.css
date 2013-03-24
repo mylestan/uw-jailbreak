@@ -3,6 +3,12 @@
 {% comment %} We need JB/setup here for some url generation {% endcomment %}
 {% include JB/setup %}
 
+h2{
+	font-size: 300%;
+	text-transform: uppercase;
+	font-style: bold;
+}
+
 h3{
 	font-size: 200%;
 	text-transform: uppercase;
@@ -19,6 +25,10 @@ body{
 
 	background-color: #F63;
 	/*background: url('roughcloth-background-intense.png') repeat top left;*/
+}
+
+div.clear{
+	clear: both;
 }
 
 
@@ -61,10 +71,10 @@ body{
 	color: #000;
 }
 
-#header a:hover{
+/*#header a:hover{
 	text-decoration: none;
 	color: #888;
-}
+}*/
 
 #pre-title{
 	margin: 0 auto;
@@ -86,8 +96,8 @@ body{
 
 #nav-bar{
 	text-align: justify;
-	margin-top: 10px;
-	margin-bottom: 25px;
+	margin-bottom: 20px;
+	background-color: #EEE;
 }
 
 #nav-bar li{
@@ -99,16 +109,17 @@ body{
 }
 
 #nav-bar li a {
+	margin: 10px;
 	color: #000;
 	text-decoration: none;
 }
 
 #nav-bar li:hover a{
-	color: #999;
+	color: #666;
 }
 
 #nav-bar li.active a{
-	color:#999;
+	color:#666;
 	text-decoration: none;
 }
 
@@ -138,6 +149,10 @@ body{
 #register-box form{
 	margin: 0px 10px;
 	padding-bottom: 10px;
+}
+
+#social-media-box {
+	margin: 10px 0px;
 }
 
 

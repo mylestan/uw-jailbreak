@@ -5,12 +5,12 @@ p.post-title{
 }
 
 p.post-date{
-	margin: 10px 20px;
+	margin: 10px 0px;
 	font-size: 80%;
 	font-style: italic;
 	color: #666;
 }
 
 div.post-content{
-
+	margin: 0px 10px
 }

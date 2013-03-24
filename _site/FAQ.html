@@ -10,8 +10,51 @@
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+    <!-- GOOGLE ANALYTICS -->
+    <script type="text/javascript">
+		var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-39552172-1']);
+			_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
 </head>
 <body>
+	
+	<div id="fb-root"></div>
+	<script>
+	  window.fbAsyncInit = function() {
+	    // init the FB JS SDK
+	    FB.init({
+	      appId      : 'YOUR_APP_ID', // App ID from the App Dashboard
+	      channelUrl : 'http://mylestan.github.com/uw-jailbreak', // Channel File for x-domain communication
+	      status     : true, // check the login status upon init?
+	      cookie     : true, // set sessions cookies to allow your server to access the session?
+	      xfbml      : true  // parse XFBML tags on this page?
+	    });
+
+	    // Additional initialization code such as adding Event Listeners goes here
+
+	  };
+
+	  // Load the SDK's source Asynchronously
+	  // Note that the debug version is being actively developed and might 
+	  // contain some type checks that are overly strict. 
+	  // Please report such bugs using the bugs tool.
+	  (function(d, debug){
+	     var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
+	     if (d.getElementById(id)) {return;}
+	     js = d.createElement('script'); js.id = id; js.async = true;
+	     js.src = "//connect.facebook.net/en_US/all" + (debug ? "/debug" : "") + ".js";
+	     ref.parentNode.insertBefore(js, ref);
+	   }(document, /*debug*/ false));
+	</script>
+
 	<div id="content">
 
 		<div id="header">
@@ -91,47 +134,54 @@
 		<img class="q-title-icon" src="assets/icons/noun_project_2036_question.svg" />
 		<p class="q-title">Where did this originate?</p>
 	</div>
-	<p class="q-answer"></p>
+	<p class="q-answer">Well...We saw all the hype about <a href="http://www.warwicksu.com/societies/jailbreak/">Warwick's</a> previous Jailbreak event, and were blown away. Hopefully they can shed more light on the event as time passes. All we know is that it's awesome, and we want to do it.</p>
 </div>
 <div class="q">
 	<div class="q-title-box">
 		<img class="q-title-icon" src="assets/icons/noun_project_2036_question.svg" />
 		<p class="q-title">How does this event raise money for charity?</p>
 	</div>
-	<p class="q-answer">Very well..</p>
+	<p class="q-answer">The same way any other fundraiders raises money! Participants sign up for the event and gather donations on their behalf - kind of like people sponsoring you to do something, but for a good cause. What makes jailbreak so cool is the opporunity for perfromance-based sponsorship; that is, can you get people to give money based on how well do you? We can't think of anything better. To give you an idea, a recent Jailbreak in Europ raised just over <a href="http://theboar.org/news/2010/nov/21/jailbreak-shatters-fundraising-target/">&pound;27,000 for charity</a> - incredible!</p>
 </div>
 <div class="q">
 	<div class="q-title-box">
 		<img class="q-title-icon" src="assets/icons/noun_project_2036_question.svg" />
 		<p class="q-title">How far have people managed to make it in the 36 hours?</p>
 	</div>
-	<p class="q-asnwer">Very far</p>
+	<p class="q-asnwer">Very far indeed. Planes are involved.</p>
 </div>
 <div class="q">
 	<div class="q-title-box">
 		<img class="q-title-icon" src="assets/icons/noun_project_2036_question.svg" />
 		<p class="q-title">How do people get back?</p>
 	</div>
-	<p class="q-answer">Dunno..</p>
+	<p class="q-answer">They say the journey is the destination. Well, once you're at your 'destination', you're new destination is home, and that's a whole new journey! Getting back is completely in your hands - make sure you have enough cash or sponsors to bring you home! That being said, if you've slick-talked your way to anywhere impressive, you might want to think about slick-talking your way back.</p>
 </div>
 <div class="q">
 	<div class="q-title-box">
 		<img class="q-title-icon" src="assets/icons/noun_project_2036_question.svg" />
-		<p class="q-title">What if I don't want to go all the way to argentina?</p>
+		<p class="q-title">What if I don't want to go all the way to Argentina?</p>
 	</div>
-	<p class="q-answer">Then don't</p>
+	<p class="q-answer">Many people see the opportunity to travel to somewhere completely unknown as very exciting. Others...not so much. If you're not THAT crazy, set a more specific goal for yourself, that lets you limit your travel distance, and stay within your comfort zone. It's your trip, do with it as you please!</p>
 </div>
 <div class="q">
 	<div class="q-title-box">
 		<img class="q-title-icon" src="assets/icons/noun_project_2036_question.svg" />
 		<p class="q-title">Why should I participate in this event?</p>
 	</div>
-	<p class="q-answer">it's great</p>
+	<p class="q-answer">Not only is this event an amazing fundraiser which tends to pull great amounts from people who don't actually think you'd get anywhere, it's also a rare excuse for you to shamelessly travel as far as possible, as adventurously as possible, for as cheap as possible. For many people, this very well could be the best experience of their university life!</p>
 </div>
 
 		</div>
 		<div id="right-box">
-			<div id="register-box">
+			<div id="social-media-box">
+				
+				<iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fpages%2FUW-Jailbreak%2F449622371783475%3Fskip_nax_wizard%3Dtrue&amp;width=300&amp;height=590&amp;show_faces=true&amp;colorscheme=light&amp;stream=true&amp;border_color=%23999&amp;header=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:590px;" allowTransparency="true"></iframe>
+				
+				<!-- <a href="https://twitter.com/uwjailbreak" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @uwjailbreak</a> -->
+				<!-- <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script> -->
+			</div>
+			<!-- <div id="register-box">
 				<h3>Keep Up!</h3>
 				<p>Throw your email onto the mailing list, and we'll keep you on-track with dates, etc.</p>
 				<form>
@@ -140,7 +190,7 @@
 					<input type="text" name="Give it to me!"> (e-mail)<br>
 					<input type="submit" name="Go!">
 				</form>
-			</div>
+			</div> -->
 		</div>
 
 	</div>
@@ -148,5 +198,6 @@
 	<div id="footer">
 		<p>contact</p>
 		<p>attributions</p>
+		<div class="clear"></div>
 	</div>
 </body>

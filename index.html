@@ -11,12 +11,13 @@ group: navigation
 <div class="posts">
 	{% for post in site.posts %}
 		<div>
-			<!-- <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a> -->
 			<p class="post-title">{{ post.title }}</p>
+		</div>
+		<div class="post-content">
+			{{ post.content }}
 		</div>
 		<div>
 			<p class="post-date">{{ post.date | date_to_string }} by {{ post.author }}</p>
 		</div>
-		<div class="post-content">{{ post.content }}</div>
 	{% endfor %}
 </div>
