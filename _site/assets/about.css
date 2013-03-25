@@ -1,0 +1,47 @@
+div#details {
+	margin-top: 0px;
+}
+
+div.accordian-head{
+	margin: 10px 0px 0px 0px;
+	cursor: pointer;
+	background-color: #E0E0E0;
+}
+
+div.accordian-head:hover{
+	background-color: #E9E9E9;
+}
+
+div.accordian-head hr {
+	margin: 0px;
+	display: block;
+	clear: left;
+	visibility: hidden;
+}
+
+div.accordian-head img{
+	margin: 10px;
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	float: left;
+}
+
+div.accordian-head p{
+	margin: 2px 15px;
+	float: left;
+
+	font-weight: normal;
+	font-size: 300%;
+}
+
+
+
+.accordian-body{
+	display: none;
+	margin: 10px 20px;
+}
+
+.accordian-body p{
+	margin: 0px;
+}
