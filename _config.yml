@@ -9,13 +9,13 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jailbreak
+title : UW Jailbreak
 tagline: How far will you go?
 author :
   name : Myles Tan
-  email : waterloojailbreak@gmail.com
+  email : uwjailbreak@gmail.com
   github :
-  twitter : @UWJailbreak
+  twitter : @uwJailbreak
   feedburner :
 
 # The production_url is only used when full-domain names are needed
