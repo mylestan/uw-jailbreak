@@ -1,0 +1,29 @@
+div.post-title{
+	margin: 0px;
+	font-size: 300%;
+	text-transform: uppercase;
+}
+
+div.post-title p{
+	margin: 0px;
+}
+
+div.post-title a{
+	text-decoration: none;
+	color: #000
+}
+
+div.post-title a:hover{
+	color: #666;
+}
+
+div.post-date{
+	margin: 10px 0px;
+	font-size: 80%;
+	font-style: italic;
+	color: #666;
+}
+
+div.post-content{
+	margin: 0px 10px
+}
