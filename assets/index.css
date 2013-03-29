@@ -1,16 +1,3 @@
-p.post-title{
-	margin: 0px;
-	font-size: 300%;
-	text-transform: uppercase;
-}
-
-p.post-date{
-	margin: 10px 0px;
-	font-size: 80%;
-	font-style: italic;
-	color: #666;
-}
-
-div.post-content{
-	margin: 0px 10px
+.post{
+	margin-bottom: 50px;
 }
