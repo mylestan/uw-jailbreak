@@ -24,7 +24,6 @@ body{
 	font-family: courier;
 
 	background-color: #F63;
-	/*background: url('roughcloth-background-intense.png') repeat top left;*/
 }
 
 div.clear{
@@ -97,7 +96,7 @@ div.clear{
 #nav-bar{
 	text-align: justify;
 	margin-bottom: 20px;
-	background-color: #EEE;
+	background-color: #CCC;
 }
 
 #nav-bar li{
@@ -115,11 +114,11 @@ div.clear{
 }
 
 #nav-bar li:hover a{
-	color: #666;
+	color: #FFF;
 }
 
 #nav-bar li.active a{
-	color:#666;
+	color:#FFF;
 	text-decoration: none;
 }
 
